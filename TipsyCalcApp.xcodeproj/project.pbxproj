@@ -97,8 +97,10 @@
 		F06F07221E47008600B8E090 /* TipsyCalcApp */ = {
 			isa = PBXGroup;
 			children = (
+				F06F07531E47020900B8E090 /* Controller */,
+				F06F07521E47020000B8E090 /* View */,
+				F06F07511E4701F000B8E090 /* Model */,
 				F06F07231E47008600B8E090 /* AppDelegate.swift */,
-				F06F07251E47008600B8E090 /* ViewController.swift */,
 				F06F07271E47008600B8E090 /* Main.storyboard */,
 				F06F072A1E47008600B8E090 /* Assets.xcassets */,
 				F06F072C1E47008600B8E090 /* LaunchScreen.storyboard */,
@@ -123,6 +125,28 @@
 				F06F07451E47008600B8E090 /* Info.plist */,
 			);
 			path = TipsyCalcAppUITests;
+			sourceTree = "<group>";
+		};
+		F06F07511E4701F000B8E090 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F06F07521E47020000B8E090 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F06F07531E47020900B8E090 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F06F07251E47008600B8E090 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
